@@ -1,0 +1,3 @@
+<wb-search (onTyping)="filter = $event" [value]="filter"></wb-search>
+<wb-bands [bands]="bands | filterByDescription: filter"></wb-bands>
+<wb-load-button (click)="load()" [hasMore]="hasMore"></wb-load-button>

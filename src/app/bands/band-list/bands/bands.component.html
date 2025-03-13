@@ -1,0 +1,17 @@
+<p class="text-center text-muted" *ngIf="!bands.length">Sorry, no bands</p>
+<ul class="list-unstyled">
+  <li *ngFor="let cols of rows" class="row no-gutters" >
+    <div *ngFor="let band of cols" class="col-4" wbDarkenOnHover>
+      <wb-card [title]="band.nome">
+        <wb-band
+          [nome]="band.nome"
+          [estilo]="band.estilo.nome">
+        </wb-band>
+        <div class="text-center p-1">
+            <i aria-hidden="true" class="fa fa-heart-o fa-1x mr-2"></i>{{ band.likes }}
+            <i aria-hidden="true" class="fa fa-comment-o fa-1x mr-2 ml-2"></i>{{ band.comments }}
+        </div>
+      </wb-card>
+    </div>
+  </li>
+</ul>
