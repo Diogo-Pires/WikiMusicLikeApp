@@ -1,5 +1,5 @@
 # WikiMusicLikeApp
-A simple wiki music application developed to study and practice Angular.​
+A **ongoing** simple wiki music application developed to study and practice Angular.​
 
 ## Overview
 WikiMusicLikeApp is an Angular-based application designed to provide a platform for exploring and managing music-related information. This project serves as a learning tool to understand the fundamentals of Angular development, including component architecture, routing, and service integration.​
