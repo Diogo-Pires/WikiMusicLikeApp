@@ -1,27 +1,73 @@
-# Webapitests
+# WikiMusicLikeApp
+A simple wiki music application developed to study and practice Angular.​
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.4.
+## Overview
+WikiMusicLikeApp is an Angular-based application designed to provide a platform for exploring and managing music-related information. This project serves as a learning tool to understand the fundamentals of Angular development, including component architecture, routing, and service integration.​
 
-## Development server
+## Features
+ - Browse and search for music-related content.
+ - User-friendly interface with responsive design.
+ - Modular component structure for scalability.
+ - Integration with external APIs for dynamic data retrieval.​
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Getting Started
+Prerequisites
+Ensure you have the following installed on your system:​
 
-## Code scaffolding
+ - Node.js (version 10 or above)
+ - Angular CLI (version 7.3.4)​
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation
+Clone the repository:​
 
-## Build
+```bash
+git clone https://github.com/Diogo-Pires/WikiMusicLikeApp.git
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```bash
+cd WikiMusicLikeApp
+```
 
-## Running unit tests
+```bash
+npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Running the Application
+To start the development server, run:
+```bash
+ng serve
+```
+Navigate to http://localhost:4200/ in your browser. The application will automatically reload if you make any changes to the source files.
 
-## Running end-to-end tests
+## Development
+### Code Scaffolding
+You can generate new components, directives, pipes, services, etc., using Angular CLI:
+```bash
+ng generate component component-name
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### Building the Project
+To build the project for production, run:​
+```bash
+ng build --prod
+```
+The build artifacts will be stored in the dist/ directory.​
 
-## Further help
+## Testing
+### Unit Tests
+To execute the unit tests via Karma, run:
+```bash
+ng test
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## End-to-End Tests
+To execute the end-to-end tests via Protractor, run:
+```bash
+ng e2e
+```
+
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.​
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
